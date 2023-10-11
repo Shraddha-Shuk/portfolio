@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(214, 208, 208);
+    color: black;
+    font-family: 'Alkatra', cursive;
+    height: 100vh;
+    padding-left: 22px;
+    padding-top: 61px;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 14px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    font-family: 'Roboto Slab', serif;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: red;*/
+    height: 50vh;
+    width: 65vw;
+    margin: auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    color: antiquewhite;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.infoContainer .devpic img{
+    position: absolute;
+    width: 21%;
+    height: 51%;
+    right: 250px;
+    border: 6px solid #d5a947;
+    border-radius: 40px;
+}
+.hello{
+    font-size: 3em;
+    font-family: 'Noto Sans', sans-serif;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+}
+.about{
+    font-size: 3em;
+}
+.moreabout{
+    font-size: 13px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 23px;
+    padding-right: 335px;
+}
+.button{
+    margin-top: 30px;
+}
+.btn{
+    padding: 6px 9px;
+    border-radius: 18px;
+    color: white;
+    background-color: rgb(63 129 181);
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px 6px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(63 129 181) ;
+}
+.btn-sn{
+    font-size: 12px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.devpic img{
+    height: 50vh;
+}
+
+.contactform{
+    font-family: 'Roboto Slab', serif;
+    padding: 0px 60px;
+    margin: 15px 80px;
+}
+.contactform form{
+    margin: 0px -22px;
+}
+.contactform h1{
+    font-family: 'Noto Sans', sans-serif;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.contactform form div input{
+    /*width: 45vh;*/
+    border-radius: 10px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#emailHelp{
+    color: #8686dd;
+    margin: 0px 5px;
+    font-size: 13px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 23px;
+    margin: 3px 0;
+}
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 23px;
+}
+p{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 23px 0px;
+}
+.intro{
+     margin: 15px 80px;
+}
+.intro h2{
+    color: #ef1515;
+    text-decoration-style: solid;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 12px;
+    color: #f9c68f;
+
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillcontainer ul li{
+    margin: 3px 44px;
+    padding: 4px 0;
+    color: #f9c68f;
+}
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 3px;
+    margin-left: 5px;
+    background: white;
+}
+
+.cross{
+    margin-left: 128px;
+    margin-top: 3px;
+}
+.servicescont h2{
+    color: #efcdcd;
+    margin: 45px 95px;
+    font-size: 55px;
+}
+#services{
+    color: white;
+    margin: 15px 80px;
+}
+.box p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 12px;
+    color: #f9c68f;
+}
+.box h2{
+    color: #ef1515;
+    text-decoration-style: solid;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 12px;
+    font-size: 32px;
+}
+
+@media(max-width: 1300px) {
+    *{
+
+    }
+    .devpic{
+        display: none;
+    }
+    .intro, .contactform{
+        margin: 50px 8px;
+    }
+    
+}
