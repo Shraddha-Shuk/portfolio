@@ -223,8 +223,11 @@ p{
     *{
 
     }
+    .infoContainer{
+        height: 90vh;
+        width: 55vw;
+    }
     .infoContainer .devpic img {
-        position: absolute;
         width: 39%;
         height: 42%;
         right: 181px;
@@ -247,4 +250,11 @@ p{
         margin-top: -83px;
     }
     
+}
+@media(max-width: 450px){
+    .infoContainer .devpic img{
+        right: 126px;
+        width:45%;
+        height: 35%;
+    }
 }
