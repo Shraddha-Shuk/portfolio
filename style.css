@@ -219,15 +219,32 @@ p{
     font-size: 32px;
 }
 
-@media(max-width: 1300px) {
+@media(max-width: 600px) {
     *{
 
     }
-    .devpic{
-        display: none;
+    .infoContainer .devpic img {
+        position: absolute;
+        width: 39%;
+        height: 42%;
+        right: 181px;
+        border: 6px solid #d5a947;
+        border-radius: 173px;
+        margin-top: -55px;
     }
     .intro, .contactform{
         margin: 50px 8px;
+    }
+    .hello{
+        font-size: 2rem;
+        margin-top: 590px;
+    }
+    .moreabout{
+        margin-top: 25px;
+        padding-right: 123px;
+    }
+    .contactform form{
+        margin-top: -83px;
     }
     
 }
