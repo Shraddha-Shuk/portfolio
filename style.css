@@ -257,4 +257,11 @@ p{
         width:45%;
         height: 35%;
     }
+    .sidebar, .hamburger{
+        z-index: 9999;
+    }
+    .moreabout{
+        margin-top: 25px;
+        padding-right: 2px;
+    }
 }
