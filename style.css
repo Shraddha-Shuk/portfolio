@@ -253,7 +253,7 @@ p{
 }
 @media(max-width: 450px){
     .infoContainer .devpic img{
-        right: 126px;
+        right: 80px;
         width:45%;
         height: 35%;
     }
