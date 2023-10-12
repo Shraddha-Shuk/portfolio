@@ -244,10 +244,13 @@ p{
     }
     .moreabout{
         margin-top: 25px;
-        padding-right: 123px;
+        padding-right: 80px;
     }
     .contactform form{
         margin-top: -83px;
+    }
+    .sidebar, .hamburger{
+        z-index: 9999;
     }
     
 }
